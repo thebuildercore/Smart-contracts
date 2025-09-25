@@ -10,7 +10,7 @@ For hackathon only two contracts are going to be used and is deployed
 --- 
   Check for deployment Transaction submitted: https://explorer.aptoslabs.com/txn/0x19133542d8236c3415e4e00900fcaf2069a14d6b1006146fd625dd30ffcb0661?network=testnet
 
-
+---
 Helper
 // frontend/config.ts
 
@@ -20,7 +20,7 @@ export const GLOBEPAYXBUSINESS_ADDRESS = "0x...";
 
 export const NETWORK_RPC = "https://fullnode.testnet.aptoslabs.com/v1";
 
-
+---
 frontend logic - import abis
 
 import { GLOBEPAYXCORE_ABI } from "./utils/GlobePayXCore_abi";
