@@ -13,8 +13,11 @@ For hackathon only two contracts are going to be used and is deployed
 
 Helper
 // frontend/config.ts
+
 export const GLOBEPAYXCORE_ADDRESS = "0x...";
+
 export const GLOBEPAYXBUSINESS_ADDRESS = "0x...";
+
 export const NETWORK_RPC = "https://fullnode.testnet.aptoslabs.com/v1";
 
 
@@ -23,9 +26,14 @@ frontend logic - import abis
 import { GLOBEPAYXCORE_ABI } from "./utils/GlobePayXCore_abi";
 
 // example function call
+
 const payload = {
+
   type: "entry_function_payload",
+  
   function: `${GLOBEPAYXCORE_ADDRESS}::GlobePayXCore::some_function`,
+  
   arguments: [arg1, arg2],
+  
   type_arguments: [],
 };
